@@ -1,126 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manish Furniture House</title>
-    <!-- link to css  -->
+    <meta
+      name="description"
+      content="Premium Furniture House - Handcrafted luxury furniture for your modern home. Shop our latest collection of chairs, sofas, and beds."
+    />
+    <title>LuxeHome | Premium Furniture Template</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="Style1.css" />
-    <!-- link to box icon  -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Boxicons -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
   </head>
+
   <body>
-    <!-- navbar  -->
-    <header>
-      <a href="##" class="logo">Furniture House</a>
-      <div class="bx bx-icon" id="menu-icon"></div>
+    <!-- HEADER -->
+    <header id="header">
+      <a href="#" class="logo">Luxe<span>Home</span></a>
 
       <ul class="navbar">
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#Shop">Shop</a></li>
-        <li><a href="#Arrival">New Arrival</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Partner">Our partner</a></li>
+        <li><a href="#Home" class="active">Home</a></li>
+        <li><a href="#Features">Features</a></li>
+        <li><a href="#Shop">Collections</a></li>
+        <li><a href="#Arrival">New Arrivals</a></li>
+        <li><a href="#About">Our Story</a></li>
         <li><a href="#Contact">Contact</a></li>
       </ul>
+
+      <div class="header-icons">
+        <i class="bx bx-search" id="search-icon"></i>
+        <i class="bx bx-cart" id="cart-icon"></i>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
     </header>
 
-    <!-- Home -->
+    <!-- HOME -->
     <section class="Home" id="Home">
       <div class="home-text">
+        <span class="subtitle">Design Your Sanctuary</span>
         <h1>
-          <span>Make</span> your comfort <br />
-          Is our <span>Happiness</span>
+          Elevate Your Living <br />
+          With <span>Timeless Craft</span>
         </h1>
         <p>
-          Find here Wooden Furniture, Wooden Furniture Set, Solid Wood
-          ,Furniture suppliers, <br />
-          manufacturers, wholesalers, traders with Wooden Furniture prices for
-          buying.
+          Discover furniture that blends modern aesthetics with the comforting
+          warmth of traditional craftsmanship. Built for life, designed for you.
         </p>
-        <a href="Shop" class="btn">Shop NOW</a>
+        <div class="home-btns">
+          <a href="#Shop" class="btn">Explore Collection</a>
+          <a href="#About" class="btn-alt">Learn More</a>
+        </div>
       </div>
     </section>
 
-    <!-- Shop -->
+    <!-- FEATURES -->
+    <section class="features" id="Features">
+      <div class="heading">
+        <span class="subtitle">Our Promise</span>
+        <h2>Why Choose <span>LuxeHome</span></h2>
+      </div>
+      <div class="features-container">
+        <div class="f-box">
+          <i class="bx bxs-award"></i>
+          <h3>Premium Quality</h3>
+          <p>
+            Hand-selected hardwoods and premium fabrics for lasting comfort.
+          </p>
+        </div>
+        <div class="f-box">
+          <i class="bx bxs-truck"></i>
+          <h3>Fast Delivery</h3>
+          <p>Carefully handled and delivered to your doorstep within 7 days.</p>
+        </div>
+        <div class="f-box">
+          <i class="bx bxs-leaf"></i>
+          <h3>Sustainable</h3>
+          <p>Ethically sourced materials and eco-friendly manufacturing.</p>
+        </div>
+        <div class="f-box">
+          <i class="bx bxs-time-five"></i>
+          <h3>24/7 Support</h3>
+          <p>Expert design consultation and lifetime service support.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOP / COLLECTIONS -->
     <section class="Shop" id="Shop">
       <div class="heading">
-        <h2><span>Shop By Categary</span></h2>
-      </div>
-      <hr />
-      <div class="shop-container">
-        <div class="box">
-          <div class="box-img">
-            <img src="./assets/chair1.jpg" alt="" />
-          </div>
-          <h3><span>Chairs</span></h3>
-          <h4><span>1299/-</span></h4>
-          <div class="stars">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
-          </div>
-          <a href="#chairpage"> <span>Shop Now</span> </a>
-        </div>
-        <div class="box">
-          <div class="box-img">
-            <img src="./assets/sofas.jpg" alt="" />
-          </div>
-          <h3><span>Sofas</span></h3>
-          <h4><span>6299/-</span></h4>
-          <div class="stars">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
-          </div>
-          <a href="#sofapage"> <span>Shop Now</span> </a>
-        </div>
-        <div class="box">
-          <div class="box-img">
-            <img src="./assets/bed.jpg" alt="" />
-          </div>
-          <h3><span>Bed</span></h3>
-          <h4><span>17299/-</span></h4>
-          <div class="stars">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
-          </div>
-          <a href="#bedpage"> <span>Shop Now</span> </a>
-        </div>
+        <span class="subtitle">Browse Options</span>
+        <h2>Shop By <span>Category</span></h2>
       </div>
 
       <div class="shop-container">
-        <div class="box">
+        <div class="box ripple">
           <div class="box-img">
-            <img src="./assets/dining.jpg" alt="" />
+            <img src="./assets/chair1.jpg" alt="Premium Armchair" />
           </div>
-          <h3><span>Dining Table</span></h3>
-          <h4><span>12999/-</span></h4>
+          <h3>Designer Chairs</h3>
+          <span class="price">From ₹14,999</span>
           <div class="stars">
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star"></i>
           </div>
-          <a href="#diningpage"> <span>Shop Now</span> </a>
+          <a href="#" class="shop-btn">View Details</a>
         </div>
-        <div class="box">
+
+        <div class="box ripple">
           <div class="box-img">
-            <img src="./assets/almira.jpg" alt="" />
+            <img src="./assets/sofas.jpg" alt="Luxury Sofa" />
           </div>
-          <h3><span>Almiras</span></h3>
-          <h4><span>12299/-</span></h4>
+          <h3>Velvet Sofas</h3>
+          <span class="price">From ₹45,999</span>
           <div class="stars">
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
@@ -128,14 +136,31 @@
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star-half"></i>
           </div>
-          <a href="#almirapage"> <span>Shop Now</span> </a>
+          <a href="#" class="shop-btn">View Details</a>
         </div>
-        <div class="box">
+
+        <div class="box ripple">
           <div class="box-img">
-            <img src="./assets/doors.jpg" alt="" />
+            <img src="./assets/bed.jpg" alt="Master Bed" />
           </div>
-          <h3><span>Doors</span></h3>
-          <h4><span>4299/-</span></h4>
+          <h3>Bedroom Sets</h3>
+          <span class="price">From ₹78,999</span>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <a href="#" class="shop-btn">View Details</a>
+        </div>
+
+        <div class="box ripple">
+          <div class="box-img">
+            <img src="./assets/dining.jpg" alt="Dining Table" />
+          </div>
+          <h3>Dining Tables</h3>
+          <span class="price">From ₹32,499</span>
           <div class="stars">
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
@@ -143,180 +168,214 @@
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star-half"></i>
           </div>
-          <a href="#doorpage"> <span>Shop Now</span> </a>
+          <a href="#" class="shop-btn">View Details</a>
+        </div>
+
+        <div class="box ripple">
+          <div class="box-img">
+            <img src="./assets/almira.jpg" alt="Almira" />
+          </div>
+          <h3>Custom Wardrobes</h3>
+          <span class="price">From ₹28,999</span>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <a href="#" class="shop-btn">View Details</a>
+        </div>
+
+        <div class="box ripple">
+          <div class="box-img">
+            <img src="./assets/doors.jpg" alt="Wooden Doors" />
+          </div>
+          <h3>Solid Wood Doors</h3>
+          <span class="price">From ₹12,999</span>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <a href="#" class="shop-btn">View Details</a>
         </div>
       </div>
     </section>
 
-    <!-- New Arrival -->
+    <!-- NEW ARRIVALS -->
     <section class="Arrival" id="Arrival">
-      <div class="arrivalhead">
-        <h4><span>New Arrival</span></h4>
-      </div>
-      <div class="arrivalhead">
-        <h2><span>Collection</span></h2>
-      </div>
-      <div class="arrival-container">
-        <div class="Arrbox">
-          <img src="./assets/bed1.jpg" alt="" />
-          <h3><span>King size bed</span></h3>
-          <h4><span>46999/-</span></h4>
-          <div class="stars">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
-          </div>
-          <a href="#bed1page"> <span>Shop Now</span> </a>
-        </div>
-
-        <div class="Arrbox">
-          <img src="./assets/window.jpg" alt="" />
-          <h3><span>premiumSection Window</span></h3>
-          <h4><span>14999/-</span></h4>
-          <div class="stars">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
-          </div>
-          <a href="#bed1page"> <span>Shop Now</span> </a>
-        </div>
+      <div class="heading">
+        <span class="subtitle">Fresh In</span>
+        <h2>New <span>Arrivals</span></h2>
       </div>
 
       <div class="arrival-container">
         <div class="Arrbox">
-          <img src="./assets/Tvback.jpg" alt="" />
-          <h3><span>Tv Wall panel</span></h3>
-          <h4><span>28999/-</span></h4>
-          <div class="stars">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
+          <div class="arr-tag">Limited</div>
+          <img src="./assets/bed1.jpg" alt="King Bed" />
+          <div class="arr-details">
+            <h3>Royal King Size Bed</h3>
+            <p>Solid Oak Wood with Premium Upholstery</p>
+            <h4>₹89,999</h4>
+            <a href="#" class="btn-sm">Shop Now</a>
           </div>
-          <a href="#bed1page"> <span>Shop Now</span> </a>
         </div>
 
         <div class="Arrbox">
-          <img src="./assets/martable1.jpg" alt="" />
-          <h3><span>Modern marbel dining table</span></h3>
-          <h4><span>38999/-</span></h4>
-          <div class="stars">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
+          <div class="arr-tag">Trending</div>
+          <img src="./assets/martable1.jpg" alt="Marble Dining" />
+          <div class="arr-details">
+            <h3>Italian Marble Dining</h3>
+            <p>6-Seater minimalist grey marble table</p>
+            <h4>₹54,999</h4>
+            <a href="#" class="btn-sm">Shop Now</a>
           </div>
-          <a href="#bed1page"> <span>Shop Now</span> </a>
         </div>
       </div>
     </section>
 
-    <!-- About -->
+    <!-- ABOUT -->
     <section class="about" id="About">
-      <div class="heading">
-        <h3><span>About</span></h3>
-      </div>
       <div class="about-container">
         <div class="about-img">
-          <img src="./assets/abochair.jpg" alt="" />
-        </div>
-        <div class="about-box">
-          <h3>
-            <span>Furniture </span> is important part for <span>comfort</span>
-          </h3>
-          <p>
-            Furniture is the first piece of attraction, where everyone wants to
-            sit comfortably and feel relaxed. Choosing the right furniture for
-            office, school or home is not only decorates but it also overll
-            impacts on your physical and mental comfort.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Our partner -->
-    <section class="partner" id="Partner">
-      <div class="heading">
-        <div class="parhead">
-          <span>Brands</span>
-        </div>
-        <div class="parhead">
-          <h2>Our Brands Partner</h2>
-        </div>
-      </div>
-      <div class="brands-container">
-        <img src="./assets/google1.png" alt="" />
-        <img src="./assets/flipkart.png" alt="" />
-        <img src="./assets/netflix.png" alt="" />
-        <img src="./assets/tesla2.png" alt="" />
-        <img src="./assets/amazon.png" alt="" />
-      </div>
-    </section>
-    <hr />
-
-    <!-- Contact -->
-    <section class="footer" id="Contact">
-      <footer>
-        <div class="footer-box">
-          <h2>
-            <span><a href="#Home">Shekhawati Furniture House</a></span>
-          </h2>
-          <p>
-            Hardwoods such as maple, oak, teak, mahogany, <br />
-            walnut, ash, acacia are some of the most commonly <br />
-            used wood types for furniture.
-          </p>
-          <div class="social">
-            <ul>
-              <li>
-                <a href="##"><i class="bx bxl-instagram"></i></a>
-              </li>
-              <li>
-                <a href="##"><i class="bx bxl-twitter"></i></a>
-              </li>
-              <li>
-                <a href="##"><i class="bx bxl-facebook"></i></a>
-              </li>
-              <li>
-                <a href="##"><i class="bx bxl-youtube"></i></a>
-              </li>
-              <li>
-                <a href="##"><i class="bx bxl-linkedin"></i></a>
-              </li>
-            </ul>
+          <img src="./assets/abochair.jpg" alt="Our Craftsmanship" />
+          <div class="exp-box">
+            <span>25+</span>
+            <p>
+              Years of <br />
+              Excellence
+            </p>
           </div>
         </div>
-        <div class="footer-box">
-          <h3>Services</h3>
-          <ul>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#product">Help & Support</a></li>
-            <li><a href="#product">Pricing</a></li>
-            <li><a href="#product">FaQ</a></li>
-          </ul>
+
+        <div class="about-text">
+          <span class="subtitle">Our Story</span>
+          <h3>Luxury is in the <span>Details</span></h3>
+          <p>
+            For over two decades, LuxeHome has been at the forefront of crafting
+            furniture that doesn't just fill a space, but defines it. Our
+            artisans combine ancestral techniques with contemporary design
+            needs.
+          </p>
+          <div class="about-stats">
+            <div>
+              <h4>5000+</h4>
+              <p>Happy Customers</p>
+            </div>
+            <div>
+              <h4>120+</h4>
+              <p>Expert Artisans</p>
+            </div>
+          </div>
+          <a href="#" class="btn">Read More</a>
         </div>
-        <div class="footer-box">
-          <h3>Product</h3>
-          <ul>
-            <li><a href="#product">Living Room</a></li>
-            <li><a href="#product">Sofa's</a></li>
-            <li><a href="#product">Office</a></li>
-            <li><a href="#product">Chair's</a></li>
-          </ul>
-        </div>
-        <div class="footer-box">
-          <h3>Contact</h3>
-          <span>Nawalghar, Rajasthan 332405</span>
-          <p>9887374746</p>
-          <a href="email">sainilalit2751@gmail.com</a>
-        </div>
-      </footer>
+      </div>
     </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="heading">
+        <span class="subtitle">Testimonials</span>
+        <h2>Client <span>Experiences</span></h2>
+      </div>
+      <div class="testimonial-container">
+        <div class="t-box">
+          <p>
+            "The quality of the teak wood bed I purchased is unmatched. It truly
+            transformed my bedroom into a master suite."
+          </p>
+          <div class="t-user">
+            <img
+              src="https://ui-avatars.com/api/?name=Lalit+Saini&background=random"
+              alt="User"
+            />
+            <div>
+              <h5>Lalit Saini</h5>
+              <span>Architect</span>
+            </div>
+          </div>
+        </div>
+        <div class="t-box">
+          <p>
+            "Amazing customer service and the delivery was even faster than
+            expected. Highly recommend LuxeHome for premium pieces."
+          </p>
+          <div class="t-user">
+            <img
+              src="https://ui-avatars.com/api/?name=Anita+Sharma&background=random"
+              alt="User"
+            />
+            <div>
+              <h5>Anita Sharma</h5>
+              <span>Interior Designer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS -->
+    <section class="partner" id="Partner">
+      <div class="heading">
+        <h2>Our <span>Trusted Brands</span></h2>
+      </div>
+      <div class="brands-container">
+        <img src="./assets/google1.png" alt="Brand" />
+        <img src="./assets/flipkart.png" alt="Brand" />
+        <img src="./assets/tesla2.png" alt="Brand" />
+        <img src="./assets/amazon.png" alt="Brand" />
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="Contact">
+      <div class="footer-container">
+        <div class="footer-box">
+          <a href="#" class="logo">Luxe<span>Home</span></a>
+          <p>
+            Crafting elegance since 1999. We specialize in premium hardwoods and
+            bespoke designs for the discerning homeowner.
+          </p>
+          <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-box">
+          <h3>Quick Links</h3>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Shop">Collections</a></li>
+          <li><a href="#Arrival">New Arrivals</a></li>
+          <li><a href="#About">Our Story</a></li>
+        </div>
+
+        <div class="footer-box">
+          <h3>Contact Detail</h3>
+          <p><i class="bx bxs-map"></i> Nawalgarh, Rajasthan 332405</p>
+          <p><i class="bx bxs-phone"></i> +91 98873 74746</p>
+          <p><i class="bx bxs-envelope"></i> contact@luxehome.com</p>
+        </div>
+
+        <div class="footer-box">
+          <h3>Newsletter</h3>
+          <p>Subscribe for exclusive updates and design tips.</p>
+          <form class="subscribe">
+            <input type="email" placeholder="Your Email" />
+            <button type="submit"><i class="bx bxs-send"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&#169; 2026 LuxeHome Furniture House. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="main.js"></script>
   </body>
 </html>
